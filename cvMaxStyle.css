@@ -1,10 +1,26 @@
 .photo-id {
-    width: 150px;
+    width: 200px;
     height: auto;
+    grid-row: 1 / 3;
+}
+
+.firstList {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    text-align: right;
+    padding: 1em;
+    margin: auto;
+}
+
+.firstTxt {
+    font-size: 1.1em;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 2em;
+
 }
 
 h1 {
@@ -17,10 +33,55 @@ h1 {
     align-items: center; */
     padding: 2em;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+
 }
 
 .nameHeader {
     padding: 20px;
     line-height: 0.9;
+}
+
+/* .photo-id,
+.nameHeader,
+.firstTxt,
+.firstList { */
+/* border: 1px solid black; */
+/* } */
+
+ul {
+    list-style: none;
+}
+
+main {
+    margin: 5em;
+    font-size: 1.2em;
+}
+
+.years {
+    color: #808b96;
+}
+
+.employeur {
+    font-style: italic;
+}
+
+.interest {
+    font-weight: bold;
+    background-color: #eaecee;
+}
+
+.linkedin {
+    width: 20px;
+    height: auto;
+}
+
+.listeDebut {
+    background-color: rgba(181, 181, 184, 0.125);
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    gap: 5px;
 }
