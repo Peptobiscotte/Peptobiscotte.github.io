@@ -1,0 +1,26 @@
+.photo-id {
+    width: 150px;
+    height: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+}
+
+.headerMain {
+    /* display: flex;
+    align-items: center; */
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nameHeader {
+    padding: 20px;
+    line-height: 0.9;
+}
