@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maxime Monnier CV</title>
+    <link rel="stylesheet" type="text/css" href="additional.css">
     <style type="text/css">
         @import 'node_modules/bulma/css/bulma.css';
     </style>
@@ -12,104 +13,140 @@
 </head>
 
 <body>
-    <header class="hero is-small is-dark">
+    <header class="hero is-small">
         <div class="hero-body">
             <div class="columns has-text-centered is-vcentered px-6">
                 <div class="column is-2">
-                    <figure class="image is-square is-hidden-mobile">
-                        <img src="assets/pic_resume_800.png" alt="M
-                        axime Monnier" class="is-rounded">
+                    <figure class="image is-hidden-mobile is-128x128">
+                        <img class="is-rounded" src="assets/id.png" alt="M
+                        axime Monnier">
                     </figure>
                 </div>
                 <div class="column is-8 py-6">
-                    <h1 class="is-size-1 title animate__animated animate__fadeInDown">Maxime Monnier</h1>
-                    <h1 class="is-size-5 subtitle animate__animated animate__fadeInDown">
+                    <div class="wrapper">
+                        <h1 class="is-size-1 title typewritter">Maxime Monnier</h1>
+                    </div>
+                    
+                    <h1 class="is-size-5 subtitle">
                         Pianiste/Compositeur professionnel <br> en reconversion dans le développement web.
                     </h1>
                 </div>
-                <div class="column is-2 has-text-right animate__animated animate__fadeInUp">
-                    <p><a href="mailto:maxime.monnier@ik.me">maxime.monnier@ik.me</a></p>
-                    <p><a href="tel:06-65-25-86-24">06.65.25.86.24</a></p>
-                    <p>Vincennes</p>
-                    <div class="py-2">
-                        <a href="https://github.com/Peptobiscotte">
-                            <ion-icon name="logo-github" size="large"></ion-icon>
-                        </a> <a href="https://www.linkedin.com/in/maxime-monnier-09ba00280/">
-                            <ion-icon name="logo-linkedin" size="large"></ion-icon>
-                        </a>
+                <div class="column is-2">
+                    <div class="has-text-right">
+                        <p><a href="mailto:maxime.monnier@ik.me">maxime.monnier@ik.me</a></p>
+                        <p><a href="tel:06-65-25-86-24">06.65.25.86.24</a></p>
+                        <p>Vincennes</p>
+                    </div>
+   
+                    <div class="level">
+                        <div class="level-left">
+                        </div>
+                        <div class="level-right">
+                            <div class="level-item">
+                                <a href="https://github.com/Peptobiscotte">
+                                    <img class="image" src="assets/github.svg" alt="Placeholder image" width="30" height="30">
+                                </a>
+                            </div>
+                            <div class="level-item">
+                                <a href="https://www.linkedin.com/in/maxime-monnier-09ba00280/">
+                                    <img class="image" src="assets/linkedin.svg" alt="Placeholder image" width="30" height="30">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <section class="box">
-        <h1 class="title py-5 has-text-centered has-text-info">Expériences Professionnelles</h1>
-        <div class="columns px-6">
-            <div class="column">
-                <h1 class="title is-4 has-text-info-dark">2021 - Présent</h1>
-                <h2 class="subtitle is-4">Pianiste</h2>
-                <p class="block">Le Biscuit</p>
-                <p class="block">● Pratique du piano
-                    Concerts, résidences, répétitions.</p>
+    <div class="tile is-ancestor m-1">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-primary">
+                <p class="title">Code Projects</p>
+                <ul>
+                    <li><a href="https://github.com/Peptobiscotte/devinombre">Devinombre</a></li>
+                    <li><a href="https://github.com/Peptobiscotte/Peptobiscotte.github.io">Curriculum Vitae</a></li>
+                    <li><a href="https://github.com/Peptobiscotte/js-course">JS Course</a></li>
+                </ul>
+              </article>
+              <article class="tile is-child notification is-warning">
+                <p class="title">...tiles</p>
+                <p class="subtitle">Bottom tile</p>
+              </article>
             </div>
-            <div class="column">
-                <h1 class="title is-4 has-text-info-dark">2016 - Présent</h1>
-                <h2 class="subtitle is-4">Compositeur/Pianiste</h2>
-                <p class="block">Space Dukes</p>
-                <p> ● Pratique du piano
-                    Composition, concerts, résidences, répétitions.
-                </p>
-                <p>● Organisation des concerts
-                    Démarchage des salles, communication, logistique.</p>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-info">
+                <p class="title">Expérience Professionnelle</p>
+                <p class="subtitle">2014 - 2023</p>
+                <div class="content">
+                    <h4 class="title is-6">Pianiste @Le Biscuit</h4>
+                    <ul>
+                        <li>Pratique du piano Concerts, résidences, répétitions.</li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <p class="title is-6">Pianiste/Compositeur @Space Dukes</p>
+                    <ul>
+                        <li>Pratique du piano Concerts, composition, résidences, répétitions.</li>
+                        <li>Organisation des concerts Démarchage des salles, communication, logistique.</li>
+                    </ul>    
+                </div>
+                <div class="content">
+                    <h4 class="title is-6">Facteur en CDD d'été @La Poste</h4>
+                    <ul>
+                        <li>Tri et distribution du courrier.</li>
+                    </ul>
+                </div>
+              </article>
             </div>
-            <div class="column">
-                <h1 class="title is-4 has-text-info-dark">2014</h1>
-                <h2 class="subtitle is-4">Facteur</h2>
-                <p class="block">La Poste (CDD)</p>
-                <p class="block"> ● Tri et distribution du courrier</p>
-            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-danger">
+              <p class="title">Intérêts</p>
+              <div class="content">
+                <ul class="emojist">
+                    <li>J'adore la cuisine. Je me documente souvent, pour avoir de l'inspiration, améliorer ma technique.</li>
+                    <li>J'aime jouer aux jeux-vidéo parfois solo mais le plus souvent multi-joueur.</li>
+                    <li>La musique fait bien évidemment aussi partie de mes passions.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
         </div>
-    </section>
-    <section class="box">
-        <h1 class="title py-5 has-text-centered has-text-info">Education</h1>
-        <div class="columns px-6">
-            <div class="column">
-                <h1 class="title is-4 has-text-info-dark">2023 - Présent</h1>
-                <h2 class="subtitle is-4">Autoformation</h2>
-                <p class="block">● Apprentissage autonome des technos web HTML, CSS et JS</p>
-                <p class="block">● Familiarisation avec les outils du développeur : linux, git, vscode..</p>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-success">
+            <div class="content">
+              <p class="title">Éducation</p>
+              <p class="subtitle">2013 - 2023</p>
+              <div class="content">
+                <p class="title is-6">Autoformation @Home</p>
+                <ul>
+                    <li>Apprentissage supervisé par un dev expérimenté des technos web HTML, CSS et JS.</li>
+                    <li>Familiarisation avec les outils du développeur : linux, git, vscode.</li>
+                </ul>    
             </div>
-            <div class="column">
-                <h1 class="title is-4 has-text-info-dark">2017 - 2020</h1>
-                <h2 class="subtitle is-4">Conservatoire Claude Debussy</h2>
-                <p class="block">● Formation de pianiste professionnel en 3 ans.</p>
+            <div class="content">
+                <p class="title is-6">Piano @Conservatoire Claude Debussy</p>
+                <ul>
+                    <li>Formation de pianiste professionnel en 3 ans.</li>
+                </ul>    
             </div>
-            <div class="column">
-                <h1 class="title is-4 has-text-info-dark">2014 - 2017</h1>
-                <h2 class="subtitle is-4">CIM - École de Jazz</h2>
-                <p class="block">● Pratique de l'instrument, musicologie, démarchage.</p>
+            <div class="content">
+                <p class="title is-6">Piano @CIM - École de Jazz</p>
+                <ul>
+                    <li>Pratique de l'instrument, musicologie, démarchage.</li>
+                </ul>    
             </div>
-            <div class="column">
-                <h1 class="title is-4 has-text-info-dark">2013</h1>
-                <h2 class="subtitle is-4">Baccalauréat</h2>
-                <p class="block">● Filière L option théâtre Mention Bien.</p>
+            <div class="content">
+                <p class="title is-6">Baccalauréat @Lycée D'Arsonval</p>
+                <ul>
+                    <li>Filière L option théâtre Mention Bien.</li>
+                </ul>    
             </div>
+          </article>
         </div>
-    </section>
-    <section class="box">
-        <h1 class="title py-5 has-text-centered has-text-info">Intérêts</h1>
-        <div class="columns px-6 mb-3">
-            <div class="column">
-                <p class="content is-medium">J'adore la cuisine. Je me renseigne beaucoup sur le sujet, pour avoir de
-                    l'inspiration, améliorer ma
-                    technique ou tout simplement apprendre.</p>
-            </div>
-            <div class="column">
-                <p class="content is-medium">J'aime jouer aux jeux-vidéo parfois solo mais le plus souvent multi-joueur.
-                    La musique fait bien évidemment aussi partie de mes passions.</p>
-            </div>
-        </div>
-    </section>
+      </div>
     <footer class="footer">
         <div class="content has-text-centered">
           <p>
