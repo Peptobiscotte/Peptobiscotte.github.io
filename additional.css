@@ -1,0 +1,46 @@
+.emojist li {
+  padding-left: 1rem;
+  text-indent: -0.75rem;
+}
+
+.emojist li::before {
+  content: '🔪';
+}
+
+.emojist li:nth-child(2)::before {
+  content: '🎮 ';
+}
+.emojist li:nth-child(3)::before {
+  content: '🎵 ';
+}
+
+.test {
+  background-color: brown;
+}
+
+.wrapper {
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typewritter {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
