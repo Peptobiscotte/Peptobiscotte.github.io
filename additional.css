@@ -19,10 +19,6 @@ ul.emojist {
   content: '🎵 ';
 }
 
-.test {
-  background-color: brown;
-}
-
 .wrapper {
   /*This part is important for centering*/
   display: grid;
