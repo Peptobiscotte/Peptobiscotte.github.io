@@ -5,6 +5,7 @@ import enveloppe from "./SVG/EnvelopeSimple.svg"
 import phone from "./SVG/Phone.svg"
 import mapPin from "./SVG/MapPin.svg"
 
+
 function Hero() {
 
     return (

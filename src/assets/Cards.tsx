@@ -66,52 +66,52 @@ function Cards() {
                     <div className="flex flex-col gap-6">
                         <div className="flex justify-between">
                             <div>
-                                <h3>Tenzies</h3>
-                                <h4>React</h4>
+                                <h3 className="text-base">Tenzi - <span className="text-sm">A captivating dice game.</span></h3>
+                                <h4 className="text-sm font-customGRI">react vite</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-tenzies" className="hover:underline underline-offset-4 font-customG">Voir projet</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-tenzies" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3>Meme</h3>
-                                <h4>React</h4>
+                                <h3 className="text-base">Meme - <span className="text-sm">The good old memes generator.</span></h3>
+                                <h4 className="text-sm font-customGRI">react vite</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-meme" className="hover:underline underline-offset-4 font-customG">Voir projet</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-meme" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3>Airbnb clone</h3>
-                                <h4>React</h4>
+                                <h3 className="text-base">Airbnb Clone - <span className="text-sm">Copying from the best.</span></h3>
+                                <h4 className="text-sm font-customGRI">react vite</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-airbnb-clone" className="hover:underline underline-offset-4 font-customG">Voir projet</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-airbnb-clone" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3>Static</h3>
-                                <h4>React</h4>
+                                <h3 className="text-base">Static - <span className="text-sm">We all have to start somewhere.</span></h3>
+                                <h4 className="text-sm font-customGRI">react vite</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-static" className="hover:underline underline-offset-4 font-customG">Voir projet</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-static" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3>Devinombre</h3>
-                                <h4>JS</h4>
+                                <h3 className="text-base">Devinombre - <span className="text-sm">Simple game on earth.</span></h3>
+                                <h4 className="text-sm font-customGRI">js vanilla</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/devinombre" className="hover:underline underline-offset-4 font-customG">Voir projet</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/devinombre" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3>Curriculum Vitae</h3>
-                                <h4>React</h4>
+                                <h3 className="text-base">Curriculum Vitæ - <span className="text-sm">You are here.</span></h3>
+                                <h4 className="text-sm font-customGRI">react vite tailwindcss</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/Peptobiscotte.github.io" className="hover:underline underline-offset-4 font-customG">Voir projet</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/Peptobiscotte.github.io" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3>JS Course</h3>
-                                <h4>Javascript</h4>
+                                <h3 className="text-base">JS Course - <span className="text-sm">I promise you chapter 16 was hard.</span></h3>
+                                <h4 className="text-sm font-customGRI">js vanilla</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/js-course" className="hover:underline underline-offset-4 font-customG">Voir projet</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/js-course" className="font-customG">Voir projet</a></div>
                         </div>
                     </div>
                 </div>
@@ -198,6 +198,7 @@ function Cards() {
                 </div>
             </div>
         </div>
+        
     )
   }
   
