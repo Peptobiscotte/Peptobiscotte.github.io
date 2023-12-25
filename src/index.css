@@ -11,3 +11,8 @@
     font-family: 'generalReg';
     src: url('./fonts/GeneralSans-Regular.ttf');
 }
+
+@font-face {
+    font-family: 'generalRegI';
+    src: url('./fonts/GeneralSans-Italic.ttf');
+}

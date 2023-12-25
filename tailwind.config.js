@@ -18,7 +18,8 @@ export default {
     },
     fontFamily: {
       customG: ['general', 'sans-serif'],
-      customGR: ['generalReg', 'sans-serif']
+      customGR: ['generalReg', 'sans-serif'],
+      customGRI: ['generalRegI', 'sans-serif']
     },
     extend: {
       width: {
