@@ -4,15 +4,15 @@
 
 @font-face {
     font-family: 'general';
-    src: url('./fonts/GeneralSans-Semibold.ttf');
+    src: url('./fonts/GeneralSans-Semibold.woff2');
 }
 
 @font-face {
     font-family: 'generalReg';
-    src: url('./fonts/GeneralSans-Regular.ttf');
+    src: url('./fonts/GeneralSans-Regular.woff2');
 }
 
 @font-face {
     font-family: 'generalRegI';
-    src: url('./fonts/GeneralSans-Italic.ttf');
+    src: url('./fonts/GeneralSans-Italic.woff2');
 }
