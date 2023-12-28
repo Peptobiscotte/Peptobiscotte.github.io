@@ -10,7 +10,7 @@ function Hero() {
 
     return (
      <div className="font-customG">
-        <div className="p-20 md:flex justify-between">
+        <div className="p-8 md:p-20 md:flex justify-between">
             <div className="flex gap-8">
             <div>
                 <img src={idPic} alt="profile" className="hidden xl:block rounded-full h-40 border-2 border-colortext"/>

@@ -10,7 +10,7 @@ import tailwindsvg from "./SVG/tailwindcss-icon logo.svg"
 function Cards() {
 
     return (
-        <div className="flex flex-col px-20 pb-20 gap-6 font-customGR">
+        <div className="flex flex-col p-8 md:px-20 md:pb-20 gap-6 font-customGR">
             <div className="lg:flex gap-6">
                 <div className="flex flex-col gap-6 flex-1">
                     <div className="bg-colorcard rounded-lg border border-1 border-colorborder p-6">
