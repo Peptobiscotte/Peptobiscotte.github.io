@@ -44,7 +44,7 @@ function Cards() {
                             <h3>Pianiste & Compositeur<a href="https://web.archive.org/web/20220418135427/https://spacedukes.com/" className="pl-2 font-customG">@Space Dukes</a></h3>
                             <h4>Depuis 2017</h4>
                             <ul className="list-disc pl-8">
-                                <li>Pratique du piano: concerts, résidences, répétitions</li>
+                                <li>Pratique du piano : concerts, résidences, répétitions</li>
                                 <li>Organisation des concerts</li>
                                 <li>Démarchage des salles</li>
                                 <li>Communication</li>
@@ -66,49 +66,49 @@ function Cards() {
                     <div className="flex flex-col gap-6">
                         <div className="flex justify-between">
                             <div>
-                                <h3 className="text-base">Tenzi - <span className="text-sm">A captivating dice game.</span></h3>
+                                <h3 className="text-base">Tenzi - <span className="text-base">A captivating dice game.</span></h3>
                                 <h4 className="text-sm font-customGRI">react vite</h4>
                             </div>
                             <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-tenzies" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3 className="text-base">Meme - <span className="text-sm">The good old memes generator.</span></h3>
+                                <h3 className="text-base">Meme - <span className="text-base">The good old memes generator.</span></h3>
                                 <h4 className="text-sm font-customGRI">react vite</h4>
                             </div>
                             <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-meme" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3 className="text-base">Airbnb Clone - <span className="text-sm">Copying from the best.</span></h3>
+                                <h3 className="text-base">Airbnb Clone - <span className="text-base">Copying from the best.</span></h3>
                                 <h4 className="text-sm font-customGRI">react vite</h4>
                             </div>
                             <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-airbnb-clone" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3 className="text-base">Static - <span className="text-sm">We all have to start somewhere.</span></h3>
+                                <h3 className="text-base">Static - <span className="text-base">We all have to start somewhere.</span></h3>
                                 <h4 className="text-sm font-customGRI">react vite</h4>
                             </div>
                             <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-static" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3 className="text-base">Devinombre - <span className="text-sm">Simple game on earth.</span></h3>
+                                <h3 className="text-base">Devinombre - <span className="text-base">Simple game on earth.</span></h3>
                                 <h4 className="text-sm font-customGRI">js vanilla</h4>
                             </div>
                             <div className="flex items-center "><a href="https://github.com/Peptobiscotte/devinombre" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3 className="text-base">Curriculum Vitæ - <span className="text-sm">You are here.</span></h3>
+                                <h3 className="text-base">Curriculum Vitæ - <span className="text-base">You are here.</span></h3>
                                 <h4 className="text-sm font-customGRI">react vite tailwindcss</h4>
                             </div>
                             <div className="flex items-center "><a href="https://github.com/Peptobiscotte/Peptobiscotte.github.io" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3 className="text-base">JS Course - <span className="text-sm">I promise you chapter 16 was hard.</span></h3>
+                                <h3 className="text-base">JS Course - <span className="text-base">I promise you chapter 16 was hard.</span></h3>
                                 <h4 className="text-sm font-customGRI">js vanilla</h4>
                             </div>
                             <div className="flex items-center "><a href="https://github.com/Peptobiscotte/js-course" className="font-customG">Voir projet</a></div>
