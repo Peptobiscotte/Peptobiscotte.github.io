@@ -64,6 +64,13 @@ function Cards() {
                 <div className="mt-6 lg:mt-0 bg-colorcard rounded-lg border border-1 border-colorborder p-6 flex-1">
                     <h2 className="text-3xl text-white pb-6 font-customG">Projets</h2>
                     <div className="flex flex-col gap-6">
+                    <div className="flex justify-between">
+                            <div>
+                                <h3 className="text-base">Coffi - <span className="text-base">Coworking made easy. (WIP)</span></h3>
+                                <h4 className="text-sm font-customGRI">nextjs typescript</h4>
+                            </div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/coffi" className="font-customG">Voir projet</a></div>
+                        </div>
                         <div className="flex justify-between">
                             <div>
                                 <h3 className="text-base">Tenzi - <span className="text-base">A captivating dice game.</span></h3>
