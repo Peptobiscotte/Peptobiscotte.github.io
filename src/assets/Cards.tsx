@@ -6,6 +6,8 @@ import gitsvg from "./SVG/Git logo.svg"
 import reactsvg from "./SVG/React logo.svg"
 import vitesvg from "./SVG/vite logo.svg"
 import tailwindsvg from "./SVG/tailwindcss-icon logo.svg"
+import nextsvg from "./SVG/nextjs-fill-svgrepo-com.svg"
+import typescriptsvg from './SVG/typescript-icon-svgrepo-com.svg'
 
 function Cards() {
 
@@ -15,7 +17,7 @@ function Cards() {
                 <div className="flex flex-col gap-6 flex-1">
                     <div className="bg-colorcard rounded-lg border border-1 border-colorborder p-6">
                         <h2 className="text-3xl text-white pb-6 font-customG">Stack</h2>
-                        <div className="flex gap-20">
+                        <div className="flex md:gap-20">
                             <div className="flex flex-col gap-2">
                                 <p><img src={htmlsvg} alt="" className="sm:block md:inline lg:block 2xl:inline pr-2"/>HTML</p>
                                 <p><img src={csssvg} alt="" className="sm:block md:inline lg:block 2xl:inline pr-2"/>CSS</p>
@@ -27,6 +29,10 @@ function Cards() {
                                 <p><img src={reactsvg} alt="" className="sm:block md:inline lg:block 2xl:inline pr-2"/>React</p>
                                 <p><img src={vitesvg} alt="" className="sm:block md:inline lg:block 2xl:inline pr-2"/>Vite</p>
                                 <p><img src={tailwindsvg} alt="" className="sm:block md:inline lg:block 2xl:inline pr-2"/>Tailwind CSS</p> 
+                            </div>
+                            <div className="flex flex-col gap-2">
+                                <p><img src={nextsvg} className="sm:block md:inline lg:block 2xl:inline pr-2"/>Next JS</p>
+                                <p><img src={typescriptsvg} className="sm:block md:inline lg:block 2xl:inline pr-2"/>Typescript</p>
                             </div>
                         </div>
                     </div>
