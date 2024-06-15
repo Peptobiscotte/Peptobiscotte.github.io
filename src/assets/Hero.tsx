@@ -1,16 +1,39 @@
 import idPic from "./idPic.png"
 import gitHub from "./SVG/GithubLogo.svg"
+import gitHubDark from "./SVG/GithubLogoDark.svg"
 import linkedIn from "./SVG/LinkedinLogo.svg"
+import linkedInDark from "./SVG/LinkedinLogoDark.svg"
 import enveloppe from "./SVG/EnvelopeSimple.svg"
+import enveloppeDark from "./SVG/EnvelopeSimpleDark.svg"
 import phone from "./SVG/Phone.svg"
+import phoneDark from "./SVG/PhoneDark.svg"
 import mapPin from "./SVG/MapPin.svg"
+import mapPinDark from "./SVG/MapPinDark.svg"
+import { useState } from "react"
+import "@theme-toggles/react/css/DarkInner.css"
+import { DarkInner } from "@theme-toggles/react"
 
 
 function Hero() {
+    const [ dark, setDark ] = useState('')
+
+    function toggleTheme() {
+        document.documentElement.classList.toggle('dark')
+        if(dark === ''){
+            setDark('dark')
+        } else {
+            setDark('')
+        }
+    }
+    
+
 
     return (
-     <div className="font-customG">
-        <div className="p-8 md:p-20 md:flex justify-between">
+     <div className="font-customG text-colortextLight dark:text-colortext">
+        <div className="flex justify-end pt-10 pr-10">
+            <DarkInner placeholder='true' duration={750} onToggle={toggleTheme}/>
+        </div>
+        <div className="p-8 md:p-20 md:pt-16 md:flex justify-between">
             <div className="md:flex gap-8">
             <div>
                 <img src={idPic} alt="profile" className="hidden xl:block rounded-full h-40 border-2 border-colortext"/>
@@ -19,15 +42,15 @@ function Hero() {
                 <h1 className="text-4xl">Maxime Monnier</h1>
                 <h2 className="text-2xl font-customGR">Recherche d'une alternance en Développement Web</h2>
                 <div className="flex gap-2 mt-1 pb-4 md:pb-0">
-                    <a href="https://www.linkedin.com/in/maxime-monnier-09ba00280/"><img src={linkedIn} alt="linkedIn" className="h-10"/></a>
-                    <a href="https://github.com/Peptobiscotte"><img src={gitHub} alt="gitHub" className="h-10"/></a>
+                    <a href="https://www.linkedin.com/in/maxime-monnier-09ba00280/">{dark === 'dark' ? <img src={linkedInDark} alt="linkedIn" className="h-10"/> : <img src={linkedIn} alt="linkedIn" className="h-10"/>}</a>
+                    <a href="https://github.com/Peptobiscotte">{dark === 'dark' ? <img src={gitHubDark} alt="gitHub" className="h-10"/> : <img src={gitHub} alt="gitHub" className="h-10"/>}</a>
                 </div>
             </div>
             </div>
             <div className="flex flex-col items-start pt-4 gap-4 text-2xl font-customGR">
-                <a href="mailto:maxime.monnier@ik.me" className="text-blue-600 dark:text-blue-400 underline"><img src={enveloppe} alt="" className="inline pr-2"/>maxime.monnier@ik.me</a>
-                <a href="tel:06-65-25-86-24" className="text-blue-600 dark:text-blue-400 underline"><img src={phone} alt="" className="inline pr-2"/>06.65.25.86.24</a>
-                <p><img src={mapPin} alt="" className="inline pr-2"/>Vincennes</p>
+                <a href="mailto:maxime.monnier@ik.me" className="underline">{dark === 'dark' ? <img src={enveloppeDark} alt="" className="inline pr-2"/> : <img src={enveloppe} alt="" className="inline pr-2"/>}maxime.monnier@ik.me</a>
+                <a href="tel:06-65-25-86-24" className="text-blue-600 dark:text-blue-400 underline">{dark === 'dark' ? <img src={phoneDark} alt="" className="inline pr-2"/> : <img src={phone} alt="" className="inline pr-2"/>}06.65.25.86.24</a>
+                <p>{dark === 'dark' ? <img src={mapPinDark} alt="" className="inline pr-2"/> : <img src={mapPin} alt="" className="inline pr-2"/>}Vincennes</p>
                 
             </div>
         </div>

@@ -15,7 +15,7 @@ function Cards() {
         <div className="flex flex-col p-8 md:px-20 md:pb-20 gap-6 font-customGR">
             <div className="lg:flex gap-6">
                 <div className="flex flex-col gap-6 flex-1">
-                    <div className="bg-colorcard rounded-lg border border-1 border-colorborder p-6">
+                    <div className="dark:bg-colorcard bg-colorcardLight rounded-lg border border-1 border-colorborder p-6">
                         <h2 className="text-3xl text-white pb-6 font-customG">Stack</h2>
                         <div className="flex md:gap-20">
                             <div className="flex flex-col gap-2">
@@ -36,7 +36,7 @@ function Cards() {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-colorcard rounded-lg border border-1 border-colorborder p-6">
+                    <div className="dark:bg-colorcard bg-colorcardLight rounded-lg border border-1 border-colorborder p-6">
                     <h2 className="text-3xl text-white pb-6 font-customG">Expériences</h2>
                     <div className="flex flex-col gap-6">
                         <div>
@@ -67,7 +67,7 @@ function Cards() {
                     </div>
                 </div>
                 </div>
-                <div className="mt-6 lg:mt-0 bg-colorcard rounded-lg border border-1 border-colorborder p-6 flex-1">
+                <div className="mt-6 lg:mt-0 dark:bg-colorcard bg-colorcardLight rounded-lg border border-1 border-colorborder p-6 flex-1">
                     <h2 className="text-3xl text-white pb-6 font-customG">Projets</h2>
                     <div className="flex flex-col gap-6">
                     <div className="flex justify-between">
@@ -128,7 +128,7 @@ function Cards() {
                         </div>
                     </div>
                 </div>
-                <div className="mt-6 lg:mt-0 bg-colorcard rounded-lg border border-1 border-colorborder p-6 flex-1">
+                <div className="mt-6 lg:mt-0 dark:bg-colorcard bg-colorcardLight rounded-lg border border-1 border-colorborder p-6 flex-1">
                     <h2 className="text-3xl pb-6 font-customG">Formation</h2>
                     <div className="flex flex-col gap-6">
                         <div className="flex flex-col gap-2">
@@ -193,7 +193,7 @@ function Cards() {
                     </div>
                 </div>               
             </div>
-            <div className="bg-colorcard rounded-lg border border-1 border-colorborder p-6 flex flex-col">
+            <div className="dark:bg-colorcard bg-colorcardLight rounded-lg border border-1 border-colorborder p-6 flex flex-col">
                 <h2 className="text-3xl text-white pb-6 font-customG">Intérêts</h2>
                 <div className="flex flex-col gap-6">
                     <div>
