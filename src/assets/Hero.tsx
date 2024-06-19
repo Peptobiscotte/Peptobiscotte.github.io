@@ -9,9 +9,11 @@ import phone from "./SVG/Phone.svg"
 import phoneDark from "./SVG/PhoneDark.svg"
 import mapPin from "./SVG/MapPin.svg"
 import mapPinDark from "./SVG/MapPinDark.svg"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import "@theme-toggles/react/css/DarkInner.css"
 import { DarkInner } from "@theme-toggles/react"
+import resumeSvg from "./SVG/download.svg"
+import resumeDark from "./SVG/downloadDark.svg"
 
 
 function Hero() {
@@ -25,8 +27,32 @@ function Hero() {
             setDark('')
         }
     }
-    
 
+    const cvURL = 'https://mycoffibucket.s3.eu-west-3.amazonaws.com/CV+-+Maxime+Monnier-1.pdf'
+
+    const [pdfBlobUrl, setPdfBlobUrl] = useState<string | undefined>(undefined)
+
+    useEffect(() => {
+        const fetchPdf = async () => {
+            try {
+              const response = await fetch(cvURL, {
+                method: 'GET',          
+                    });
+              if (!response.ok) {
+                  console.log(response)
+    
+                throw new Error('Erreur lors du téléchargement du PDF');
+              }
+              const blob = await response.blob();
+              const url = URL.createObjectURL(blob);
+              setPdfBlobUrl(url);
+            } catch (error) {
+             throw new Error;
+            }
+        }
+        fetchPdf()
+    }, [cvURL])
+    
 
     return (
      <div className="font-customG text-colortextLight dark:text-colortext">
@@ -44,6 +70,7 @@ function Hero() {
                 <div className="flex gap-2 mt-1 pb-4 md:pb-0">
                     <a href="https://www.linkedin.com/in/maxime-monnier-09ba00280/">{dark === 'dark' ? <img src={linkedInDark} alt="linkedIn" className="h-10"/> : <img src={linkedIn} alt="linkedIn" className="h-10"/>}</a>
                     <a href="https://github.com/Peptobiscotte">{dark === 'dark' ? <img src={gitHubDark} alt="gitHub" className="h-10"/> : <img src={gitHub} alt="gitHub" className="h-10"/>}</a>
+                    <a href={pdfBlobUrl} download target="_blank">{dark === 'dark' ? <img src={resumeDark} alt="gitHub" className="h-10"/> : <img src={resumeSvg} alt="gitHub" className="h-10"/>}</a>
                 </div>
             </div>
             </div>
