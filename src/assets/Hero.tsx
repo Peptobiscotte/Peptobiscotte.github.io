@@ -70,7 +70,7 @@ function Hero() {
                 <div className="flex gap-2 mt-1 pb-4 md:pb-0">
                     <a href="https://www.linkedin.com/in/maxime-monnier-09ba00280/">{dark === 'dark' ? <img src={linkedInDark} alt="linkedIn" className="h-10"/> : <img src={linkedIn} alt="linkedIn" className="h-10"/>}</a>
                     <a href="https://github.com/Peptobiscotte">{dark === 'dark' ? <img src={gitHubDark} alt="gitHub" className="h-10"/> : <img src={gitHub} alt="gitHub" className="h-10"/>}</a>
-                    <a href={pdfBlobUrl} download target="_blank">{dark === 'dark' ? <img src={resumeDark} alt="gitHub" className="h-10"/> : <img src={resumeSvg} alt="gitHub" className="h-10"/>}</a>
+                    <a href={pdfBlobUrl} download='Maxime-Monnier-CV' target="_blank">{dark === 'dark' ? <img src={resumeDark} alt="gitHub" className="h-10"/> : <img src={resumeSvg} alt="gitHub" className="h-10"/>}</a>
                 </div>
             </div>
             </div>
