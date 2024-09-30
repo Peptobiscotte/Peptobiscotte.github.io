@@ -8,6 +8,7 @@ import vitesvg from "./SVG/vite logo.svg"
 import tailwindsvg from "./SVG/tailwindcss-icon logo.svg"
 import nextsvg from "./SVG/nextjs-fill-svgrepo-com.svg"
 import typescriptsvg from './SVG/typescript-icon-svgrepo-com.svg'
+import vueSvg from './SVG/vue-svgrepo-com.svg'
 
 function Cards() {
 
@@ -33,6 +34,7 @@ function Cards() {
                             <div className="flex flex-col gap-2">
                                 <p><img src={nextsvg} className="sm:block md:inline lg:block 2xl:inline pr-2"/>Next JS</p>
                                 <p><img src={typescriptsvg} className="sm:block md:inline lg:block 2xl:inline pr-2"/>Typescript</p>
+                                <p><img src={vueSvg} className="sm:block md:inline lg:block 2xl:inline pr-2"/>Vue.js</p>
                             </div>
                         </div>
                     </div>
@@ -76,6 +78,13 @@ function Cards() {
                                 <h4 className="text-sm font-customGRI">nextjs typescript</h4>
                             </div>
                             <div className="flex items-center "><a href="https://github.com/Peptobiscotte/coffi" className="font-customG">Voir projet</a></div>
+                        </div>
+                        <div className="flex justify-between">
+                            <div>
+                                <h3 className="text-base">Find a Coach! - <span className="text-base">Do it.</span></h3>
+                                <h4 className="text-sm font-customGRI">vue.js</h4>
+                            </div>
+                            <div className="flex items-center "><a href="https://coachrewind.web.app/coaches" className="font-customG">Voir projet</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
