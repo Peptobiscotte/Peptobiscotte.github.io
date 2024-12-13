@@ -74,17 +74,32 @@ function Cards() {
                     <div className="flex flex-col gap-6">
                     <div className="flex justify-between">
                             <div>
+                                <h3 className="text-base">FriendsList - <span className="text-base">Your contact manager</span></h3>
+                                <h4 className="text-sm font-customGRI">vue.js nuxt</h4>
+                            </div>
+                            <div className="flex flex-col items-center ">
+                                <a href="https://github.com/Peptobiscotte/friendslist" className="font-customG">Voir projet</a>
+                                <a href="https://friendslist-phi.vercel.app/" className="font-customG">Website</a>
+                            </div>
+                        </div>
+                    <div className="flex justify-between">
+                            <div>
                                 <h3 className="text-base">Coffi - <span className="text-base">Coworking made easy. (WIP)</span></h3>
                                 <h4 className="text-sm font-customGRI">nextjs typescript</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/coffi" className="font-customG">Voir projet</a></div>
+                            <div className="flex flex-col items-center ">
+                                <a href="https://github.com/Peptobiscotte/coffi" className="font-customG">Voir projet</a>
+                                <a href="https://coffi-ten.vercel.app/" className="font-customG">Website</a>
+                            </div>
                         </div>
                         <div className="flex justify-between">
                             <div>
                                 <h3 className="text-base">Find a Coach! - <span className="text-base">Do it.</span></h3>
                                 <h4 className="text-sm font-customGRI">vue.js</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://coachrewind.web.app/coaches" className="font-customG">Voir projet</a></div>
+                            <div className="flex flex-col items-center ">
+                                <a href="https://coachrewind.web.app/coaches" className="font-customG">Website</a>
+                            </div>
                         </div>
                         <div className="flex justify-between">
                             <div>
