@@ -18,7 +18,7 @@ function Cards() {
                 <div className="flex flex-col gap-6 flex-1">
                     <div className="dark:bg-colorcard bg-colorcardLight rounded-lg border border-1 border-colorborder p-6">
                         <h2 className="text-3xl text-white pb-6 font-customG">Stack</h2>
-                        <div className="flex md:gap-20">
+                        <div className="flex gap-8">
                             <div className="flex flex-col gap-2">
                                 <p><img src={htmlsvg} alt="" className="sm:block md:inline lg:block 2xl:inline pr-2"/>HTML</p>
                                 <p><img src={csssvg} alt="" className="sm:block md:inline lg:block 2xl:inline pr-2"/>CSS</p>
