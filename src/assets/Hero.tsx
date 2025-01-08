@@ -1,4 +1,4 @@
-import idPic from "./idPic.png"
+import idPic from "./maxpp.png"
 import gitHub from "./SVG/GithubLogo.svg"
 import gitHubDark from "./SVG/GithubLogoDark.svg"
 import linkedIn from "./SVG/LinkedinLogo.svg"
@@ -28,7 +28,7 @@ function Hero() {
         }
     }
 
-    const cvURL = 'https://mycoffibucket.s3.eu-west-3.amazonaws.com/CV+-+Maxime+Monnier-1.pdf'
+    const cvURL = 'https://mycoffibucket.s3.eu-west-3.amazonaws.com/Maxime-Monnier-CV+vf.pdf'
 
     const [pdfBlobUrl, setPdfBlobUrl] = useState<string | undefined>(undefined)
 
