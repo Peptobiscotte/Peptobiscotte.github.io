@@ -15,9 +15,13 @@ import { DarkInner } from "@theme-toggles/react"
 import resumeSvg from "./SVG/download.svg"
 import resumeDark from "./SVG/downloadDark.svg"
 
+type DarkProps = {
+    dark: string;
+    setDark: React.Dispatch<React.SetStateAction<string>>;
+  };
 
-function Hero() {
-    const [ dark, setDark ] = useState('')
+function Hero({dark, setDark}: DarkProps) {
+    
 
     function toggleTheme() {
         document.documentElement.classList.toggle('dark')
@@ -26,6 +30,7 @@ function Hero() {
         } else {
             setDark('')
         }
+        console.log(dark)
     }
 
     const cvURL = 'https://mycoffibucket.s3.eu-west-3.amazonaws.com/Maxime-Monnier-CV+vf.pdf'
