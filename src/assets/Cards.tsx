@@ -84,7 +84,7 @@ function Cards() {
                         </div>
                     <div className="flex justify-between">
                             <div>
-                                <h3 className="text-base">Coffi - <span className="text-base">Coworking made easy. (WIP)</span></h3>
+                                <h3 className="text-base">Coffi - <span className="text-base">Coworking made easy.</span></h3>
                                 <h4 className="text-sm font-customGRI">nextjs typescript</h4>
                             </div>
                             <div className="flex flex-col items-center ">
@@ -157,7 +157,33 @@ function Cards() {
                     <div className="flex flex-col gap-6">
                         <div className="flex flex-col gap-2">
                             <div>
-                                <h3>The Complete Javascript Course 2024<a href="https://www.udemy.com/course/the-complete-javascript-course/" className="pl-2 font-customG">@Udemy</a></h3>
+                                <h3>Vue - The Complete Guide
+                                <a href="https://www.udemy.com/course/nextjs-react-the-complete-guide/" className="pl-2 font-customG">@Udemy</a></h3>
+                                <h4>2024</h4>
+                            </div>
+                            <div>
+                                <ul className="list-disc pl-8">
+                                    <li>Utilisation avancée de Vue</li>
+                                    <li>Réalisation de projets</li>
+                                    <li>Apprentissage de Nuxt</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="flex flex-col gap-2">
+                            <div>
+                                <h3>Next.js 14 & React - The Complete Guide<a href="https://www.udemy.com/course/nextjs-react-the-complete-guide/" className="pl-2 font-customG">@Udemy</a></h3>
+                                <h4>2024</h4>
+                            </div>
+                            <div>
+                                <ul className="list-disc pl-8">
+                                    <li>Utilisation avancée de React & apprentissage de Next.js</li>
+                                    <li>Réalisation de projets multi-pages et back-end</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="flex flex-col gap-2">
+                            <div>
+                                <h3>The Complete Javascript Course<a href="https://www.udemy.com/course/the-complete-javascript-course/" className="pl-2 font-customG">@Udemy</a></h3>
                                 <h4>2023</h4>
                             </div>
                             <div>
@@ -167,18 +193,7 @@ function Cards() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-2">
-                            <div>
-                                <h3>Next.js 14 & React - The Complete Guide<a href="https://www.udemy.com/course/nextjs-react-the-complete-guide/" className="pl-2 font-customG">@Udemy</a></h3>
-                                <h4>2023</h4>
-                            </div>
-                            <div>
-                                <ul className="list-disc pl-8">
-                                    <li>Utilisation avancée de React & apprentissage de Next.js</li>
-                                    <li>Réalisation de projets multi-pages et back-end</li>
-                                </ul>
-                            </div>
-                        </div>
+                        
                         <div className="flex flex-col gap-2">
                             <div>
                                 <h3>Learn React, Learn Typescript<a href="https://scrimba.com/" className="pl-2 font-customG">@Scrimba</a></h3>
@@ -194,7 +209,7 @@ function Cards() {
                         <div className="flex flex-col gap-2">
                             <div>
                                 <h3>Piano<a href="https://conservatoires.paris.fr/conservatoires/debussy" className="pl-2 font-customG">@Conservatoire Claude Debussy</a></h3>
-                                <h4>Septembre 2017 à Juillet 2020</h4>
+                                <h4>2017</h4>
                             </div>
                             <div>
                                 <ul className="list-disc pl-8">
@@ -205,7 +220,7 @@ function Cards() {
                         <div className="flex flex-col gap-2">
                             <div>
                             <h3>Piano<span className="pl-2 font-customG">@CIM - École de jazz</span></h3>
-                                <h4>Septembre 2014 à Juillet 2017</h4>
+                                <h4>2014</h4>
                             </div>
                             <div>
                                 <ul className="list-disc pl-8">
