@@ -9,8 +9,8 @@ import tailwindsvg from "./SVG/tailwindcss-icon logo.svg"
 import nextsvg from "./SVG/nextjs-fill-svgrepo-com.svg"
 import typescriptsvg from './SVG/typescript-icon-svgrepo-com.svg'
 import vueSvg from './SVG/vue-svgrepo-com.svg'
-import githubSvg from './SVG/GithubLogo.svg'
-import githubSvgDark from './SVG/GithubLogoDark.svg'
+import githubSvg from './SVG/githubLink.svg'
+import githubSvgDark from './SVG/githubLinkDark.svg'
 import webSvg from './SVG/web-svgrepo-com.svg'
 import webSvgDark from './SVG/web-svgrepo-comDark.svg'
 
@@ -86,7 +86,7 @@ function Cards({dark}: DarkProps) {
                                 <h4 className="text-sm font-customGRI">nextjs react Gemini AI</h4>
                             </div>
                             <div className="flex items-center ">
-                                <a href="https://github.com/Peptobiscotte/ai-cooking" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-10"/> : <img src={githubSvg} className="h-10"/>}</a>
+                                <a href="https://github.com/Peptobiscotte/ai-cooking" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a>
                             </div>
                         </div>
                         <div className="flex justify-between">
@@ -94,10 +94,9 @@ function Cards({dark}: DarkProps) {
                                 <h3 className="text-base">FriendsList - <span className="text-base">Your contact manager</span></h3>
                                 <h4 className="text-sm font-customGRI">vue.js nuxt</h4>
                             </div>
-                            <div className="flex items-center ">
-                                <a href="https://github.com/Peptobiscotte/friendslist" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-10"/> : <img src={githubSvg} className="h-10"/>}</a>
-                                <p>||</p>
-                                <a href="https://friendslist-phi.vercel.app/" className="font-customG">{dark === 'dark' ? <img src={webSvgDark} className="h-10"/> : <img src={webSvg} className="h-10"/>}</a>
+                            <div className="flex items-center gap-2">
+                                <a href="https://friendslist-phi.vercel.app/" className="font-customG">{dark === 'dark' ? <img src={webSvgDark} className="h-8"/> : <img src={webSvg} className="h-8"/>}</a>
+                                <a href="https://github.com/Peptobiscotte/friendslist" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a>
                             </div>
                         </div>
                         <div className="flex justify-between">
@@ -105,10 +104,9 @@ function Cards({dark}: DarkProps) {
                                 <h3 className="text-base">Coffi - <span className="text-base">Coworking made easy.</span></h3>
                                 <h4 className="text-sm font-customGRI">nextjs typescript</h4>
                             </div>
-                            <div className="flex items-center ">
-                                <a href="https://github.com/Peptobiscotte/coffi" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-10"/> : <img src={githubSvg} className="h-10"/>}</a>
-                                <p>||</p>
-                                <a href="https://coffi-ten.vercel.app/" className="font-customG">{dark === 'dark' ? <img src={webSvgDark} className="h-10"/> : <img src={webSvg} className="h-10"/>}</a>
+                            <div className="flex items-center gap-2">
+                                <a href="https://coffi-ten.vercel.app/" className="font-customG">{dark === 'dark' ? <img src={webSvgDark} className="h-8"/> : <img src={webSvg} className="h-8"/>}</a>
+                                <a href="https://github.com/Peptobiscotte/coffi" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a>
                             </div>
                         </div>
                         <div className="flex justify-between">
@@ -117,7 +115,7 @@ function Cards({dark}: DarkProps) {
                                 <h4 className="text-sm font-customGRI">vue.js</h4>
                             </div>
                             <div className="flex flex-col items-center ">
-                                <a href="https://coachrewind.web.app/coaches" className="font-customG">{dark === 'dark' ? <img src={webSvgDark} className="h-10"/> : <img src={webSvg} className="h-10"/>}</a>
+                                <a href="https://coachrewind.web.app/coaches" className="font-customG">{dark === 'dark' ? <img src={webSvgDark} className="h-8"/> : <img src={webSvg} className="h-8"/>}</a>
                             </div>
                         </div>
                         <div className="flex justify-between">
@@ -125,49 +123,49 @@ function Cards({dark}: DarkProps) {
                                 <h3 className="text-base">Tenzi - <span className="text-base">A captivating dice game.</span></h3>
                                 <h4 className="text-sm font-customGRI">react vite</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-tenzies" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-10"/> : <img src={githubSvg} className="h-10"/>}</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-tenzies" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
                                 <h3 className="text-base">Meme - <span className="text-base">The good old memes generator.</span></h3>
                                 <h4 className="text-sm font-customGRI">react vite</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-meme" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-10"/> : <img src={githubSvg} className="h-10"/>}</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-meme" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
                                 <h3 className="text-base">Airbnb Clone - <span className="text-base">Copying from the best.</span></h3>
                                 <h4 className="text-sm font-customGRI">react vite</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-airbnb-clone" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-10"/> : <img src={githubSvg} className="h-10"/>}</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-airbnb-clone" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
                                 <h3 className="text-base">Static - <span className="text-base">We all have to start somewhere.</span></h3>
                                 <h4 className="text-sm font-customGRI">react vite</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-static" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-10"/> : <img src={githubSvg} className="h-10"/>}</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/react-static" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
                                 <h3 className="text-base">Devinombre - <span className="text-base">Simple game on earth.</span></h3>
                                 <h4 className="text-sm font-customGRI">js vanilla</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/devinombre" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-10"/> : <img src={githubSvg} className="h-10"/>}</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/devinombre" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
                                 <h3 className="text-base">Curriculum Vitæ - <span className="text-base">You are here.</span></h3>
                                 <h4 className="text-sm font-customGRI">react vite tailwindcss</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/Peptobiscotte.github.io" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-10"/> : <img src={githubSvg} className="h-10"/>}</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/Peptobiscotte.github.io" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a></div>
                         </div>
                         <div className="flex justify-between">
                             <div>
                                 <h3 className="text-base">JS Course - <span className="text-base">I promise you chapter 16 was hard.</span></h3>
                                 <h4 className="text-sm font-customGRI">js vanilla</h4>
                             </div>
-                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/js-course" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-10"/> : <img src={githubSvg} className="h-10"/>}</a></div>
+                            <div className="flex items-center "><a href="https://github.com/Peptobiscotte/js-course" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a></div>
                         </div>
                     </div>
                 </div>
