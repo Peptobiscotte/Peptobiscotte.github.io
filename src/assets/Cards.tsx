@@ -85,7 +85,8 @@ function Cards({dark}: DarkProps) {
                                 <h3 className="text-base">What's for dinner - <span className="text-base">AI cooking assistant</span></h3>
                                 <h4 className="text-sm font-customGRI">nextjs react Gemini AI</h4>
                             </div>
-                            <div className="flex items-center ">
+                            <div className="flex items-center gap-2">
+                                <a href="https://whatsfordinner-ecru.vercel.app/" className="font-customG">{dark === 'dark' ? <img src={webSvgDark} className="h-8"/> : <img src={webSvg} className="h-8"/>}</a>
                                 <a href="https://github.com/Peptobiscotte/ai-cooking" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a>
                             </div>
                         </div>
