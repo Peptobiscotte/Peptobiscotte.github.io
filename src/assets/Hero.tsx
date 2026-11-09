@@ -82,7 +82,7 @@ function Hero({dark, setDark}: DarkProps) {
             <div className="flex flex-col items-start pt-4 gap-4 text-2xl font-customGR">
                 <a href="mailto:maxime.monnier@ik.me" className="underline">{dark === 'dark' ? <img src={enveloppeDark} alt="" className="inline pr-2"/> : <img src={enveloppe} alt="" className="inline pr-2"/>}maxime.monnier@ik.me</a>
                 <a href="tel:06-65-25-86-24" className="text-blue-600 dark:text-blue-400 underline">{dark === 'dark' ? <img src={phoneDark} alt="" className="inline pr-2"/> : <img src={phone} alt="" className="inline pr-2"/>}06.65.25.86.24</a>
-                <p>{dark === 'dark' ? <img src={mapPinDark} alt="" className="inline pr-2"/> : <img src={mapPin} alt="" className="inline pr-2"/>}Vincennes</p>
+                <p>{dark === 'dark' ? <img src={mapPinDark} alt="" className="inline pr-2"/> : <img src={mapPin} alt="" className="inline pr-2"/>}Saint-Maur</p>
                 
             </div>
         </div>
