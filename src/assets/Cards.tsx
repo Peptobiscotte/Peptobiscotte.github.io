@@ -97,8 +97,8 @@ function Cards({dark}: DarkProps) {
                         </div>
                         <div className="flex justify-between">
                             <div>
-                                <h3 className="text-base">Mock-Interview - <span className="text-base">Practice live coding</span></h3>
-                                <h4 className="text-sm font-customGRI">typescript docker express react</h4>
+                                <h3 className="text-base">Pair Mock - <span className="text-base">Practice live coding</span></h3>
+                                <h4 className="text-sm font-customGRI">typescript docker express reactjs</h4>
                             </div>
                             <div className="flex items-center gap-2">
                                 <a href="https://github.com/Peptobiscotte/Agent-SWE" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a>
@@ -180,52 +180,16 @@ function Cards({dark}: DarkProps) {
                         </div>
                         <div className="flex flex-col gap-2">
                             <div>
-                                <h3>Vue - The Complete Guide
-                                <a href="https://www.udemy.com/course/nextjs-react-the-complete-guide/" className="pl-2 font-customG">@Udemy</a></h3>
-                                <h4>2024</h4>
+                                <h3>Autoformation en développement web
+                                <a href="https://www.udemy.com/" className="pl-2 font-customG">@Udemy</a>
+                                <a href="https://scrimba.com/" className="pl-2 font-customG">@Scrimba</a></h3>
+                                <h4>2023–2025</h4>
                             </div>
                             <div>
                                 <ul className="list-disc pl-8">
-                                    <li>Utilisation avancée de Vue</li>
-                                    <li>Réalisation de projets</li>
-                                    <li>Apprentissage de Nuxt</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="flex flex-col gap-2">
-                            <div>
-                                <h3>Next.js 14 & React - The Complete Guide<a href="https://www.udemy.com/course/nextjs-react-the-complete-guide/" className="pl-2 font-customG">@Udemy</a></h3>
-                                <h4>2024</h4>
-                            </div>
-                            <div>
-                                <ul className="list-disc pl-8">
-                                    <li>Utilisation avancée de React & apprentissage de Next.js</li>
-                                    <li>Réalisation de projets multi-pages et back-end</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="flex flex-col gap-2">
-                            <div>
-                                <h3>The Complete Javascript Course<a href="https://www.udemy.com/course/the-complete-javascript-course/" className="pl-2 font-customG">@Udemy</a></h3>
-                                <h4>2023</h4>
-                            </div>
-                            <div>
-                                <ul className="list-disc pl-8">
-                                    <li>Apprentissage du langage javascript, fondamentaux, OOP...</li>
-                                    <li>Réalisation de projets en js Vanilla</li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div className="flex flex-col gap-2">
-                            <div>
-                                <h3>Learn React, Learn Typescript<a href="https://scrimba.com/" className="pl-2 font-customG">@Scrimba</a></h3>
-                                <h4>2023</h4>
-                            </div>
-                            <div>
-                                <ul className="list-disc pl-8">
-                                    <li>Formation au framework React, construction de multiples projets</li>
-                                    <li>Apprentissage de Typescript</li>
+                                    <li>JavaScript : fondamentaux, programmation orientée objet et projets en JavaScript vanilla</li>
+                                    <li>React, TypeScript et Next.js : réalisation d’applications multi-pages et back-end</li>
+                                    <li>Vue.js et Nuxt : utilisation avancée et réalisation de projets</li>
                                 </ul>
                             </div>
                         </div>
