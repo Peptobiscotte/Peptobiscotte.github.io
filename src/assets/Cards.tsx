@@ -101,7 +101,7 @@ function Cards({dark}: DarkProps) {
                                 <h4 className="text-sm font-customGRI">typescript docker express reactjs</h4>
                             </div>
                             <div className="flex items-center gap-2">
-                                <a href="https://github.com/Peptobiscotte/Agent-SWE" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a>
+                                <a href="https://github.com/Peptobiscotte/Pair-Mock" className="font-customG">{dark === 'dark' ? <img src={githubSvgDark} className="h-8"/> : <img src={githubSvg} className="h-8"/>}</a>
                             </div>
                         </div>
                         <div className="flex justify-between">
