@@ -45,7 +45,7 @@ function Hero({dark, setDark}: DarkProps) {
             </div>
             <div className="flex flex-col gap-2 justify-center">
                 <h1 className="text-4xl">Maxime Monnier</h1>
-                <h2 className="text-2xl font-customGR">Recherche d'une alternance en Développement Web</h2>
+                <h2 className="text-2xl font-customGR">Software Engineer</h2>
                 <div className="flex gap-2 mt-1 pb-4 md:pb-0">
                     <a href="https://www.linkedin.com/in/maxime-monnier-09ba00280/">{dark === 'dark' ? <img src={linkedInDark} alt="linkedIn" className="h-10"/> : <img src={linkedIn} alt="linkedIn" className="h-10"/>}</a>
                     <a href="https://github.com/Peptobiscotte">{dark === 'dark' ? <img src={gitHubDark} alt="gitHub" className="h-10"/> : <img src={gitHub} alt="gitHub" className="h-10"/>}</a>
